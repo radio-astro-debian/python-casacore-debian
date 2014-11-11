@@ -1,0 +1,16 @@
+Source: python-casacore
+Section: python
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), python-dev, libcasacore-dev (>= 2.0),
+ casacore-data, python-setuptools, libboost-python-dev, libcfitsio3-dev
+Standards-Version: 3.9.2
+Homepage: https://github.com/ska-sa/python-casacore
+X-Python-Version: 2.7
+
+Package: python-casacore
+Architecture: any
+Provides: ${python:Provides}
+Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}, python-numpy
+Description: python wrapper for casacore
+
