@@ -1,1 +1,6 @@
-python-casacore.debhelper.log
+*.debhelper.log
+files
+*.postinst.debhelper
+*.prerm.debhelper
+*.substvars
+python-casacore/
