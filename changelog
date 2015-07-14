@@ -1,3 +1,9 @@
+python-casacore (2.0.0-2trusty) trusty; urgency=medium
+
+  * add Replaces old python-pyrap package
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Tue, 14 Jul 2015 16:06:15 +0200
+
 python-casacore (2.0.0-1trusty) trusty; urgency=medium
 
   * new upstream release
