@@ -12,6 +12,6 @@ Package: python-casacore
 Architecture: any
 Provides: ${python:Provides}
 Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}, python-numpy
-Replaces: python-pyrap
+Conflicts: python-pyrap
 Description: python wrapper for casacore
 
